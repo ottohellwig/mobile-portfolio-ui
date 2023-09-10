@@ -1,50 +1,160 @@
 body {
-  background-color: antiquewhite;
+  background: rgb(10, 14, 57);
+  background: linear-gradient(135deg, rgba(10, 14, 57, 1) 0%, rgba(29, 42, 84, 1) 50%, rgba(43, 91, 164, 1) 100%);
   font-family: 'Inter', sans-serif;
   min-height: 100vh;
-  margin:0%;
+  color: azure;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Space content at the top and bottom */
 }
 
-  .navbar {
-    background-color: darkslategray;
-    padding: 10px 0;
-    text-align: center; 
-    font-family: 'Inter', sans-serif; 
-  }
+header {
+  text-align: center;
+}
 
-  .navbar ul {
-    list-style: none;
-  }
-  
-  .navbar li {
-    display: inline-block; 
-    margin: 0 10px; 
-  }
-  
-  .navbar a {
-    text-decoration: none; 
-    color: antiquewhite;
-    font-weight: bold; 
-    font-size: 16px; 
-  }
-  
-  @media (max-width: 375px) {
-    .navbar {
-      padding: 10px;
-    }
-  
-    .navbar li {
-      margin: 5px; 
-    }
-  }
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Center the navigation horizontally */
+}
 
-  .testing {
-    padding: 10px 0;
-    text-align: center; 
-  }
+nav li {
+  margin-right: 20px; /* 10px right margin (gap) between each list item */
+}
 
-  footer {
-    margin-top: bottom;
-    text-align: center; 
-  }
+nav a {
+  text-decoration: none;
+  color: azure;
+  font-weight: 500;
+  font-size: 18px;
+}
 
+footer {
+  text-align: center;
+  padding: 10px 0; /* Add some padding to the footer */
+}
+
+main {
+  text-align: center;
+  padding: 20px;
+}
+
+.intro {
+  margin-bottom: 20px;
+  text-align: left;
+  padding: 20px;
+}
+
+.intro h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 20px;
+  margin: 0;
+}
+
+.description {
+  font-size: 14px;
+}
+
+main p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.education {
+  text-align: left;
+  padding: 20px;
+}
+
+.education h2 {
+  font-size: 24px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.education-item {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.education-item h3 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.institution {
+  font-size: 16px;
+  color: #555;
+  margin-top: 5px;
+}
+
+.date {
+  font-size: 16px;
+  color: #777;
+}
+
+.experience {
+  text-align: left;
+  padding: 20px;
+}
+
+.experience h2 {
+  font-size: 24px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.experience-item {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.experience-item h3 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.company {
+  font-size: 16px;
+  color: #555;
+  margin-top: 5px;
+}
+
+.date {
+  font-size: 16px;
+  color: #777;
+}
+
+.about-me {
+  text-align: left; /* Align the content to the left */
+  padding: 20px;
+}
+
+.about-me h2 {
+  font-size: 24px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.about-me p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.responsive-image {
+  max-width: 40%; /* Adjust the percentage to make the circle smaller */
+  height: auto;
+  border-radius: 50%; /* Make the image round */
+  /* Adjust other styles as needed for your design */
+}
