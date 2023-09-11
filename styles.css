@@ -1,7 +1,5 @@
-/* Credits to Google Fonts for the Inter font family. */
+/* Credits to Google Fonts, Font Awesome and Tim for suggesting to use FA 4.7. */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
-
-/* Credits to Font Awesome for the social icons and Tim for suggesting to use 4.7.0 version. */
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 
 body {
@@ -14,7 +12,6 @@ body {
   justify-content: space-between;
 }
 
-/* Navbar */
 nav {
   margin-top: 20px;
   margin-bottom: 20px; 
@@ -38,7 +35,6 @@ nav a {
   color: #212529;
 }
 
-/* Main Section */
 main {
   text-align: left;
   line-height: 1.5;
@@ -57,7 +53,6 @@ main {
   overflow: hidden;
 }
 
-/* Intro */
 .title {
   text-align: center;
 }
@@ -87,11 +82,14 @@ main {
   margin-bottom: 10px;
 }
 
-/* About Section */
 .about {
   margin-top: 100px;
   text-align: left;
   padding: 20px;
+}
+
+.about p {
+  margin-bottom: 10px; 
 }
 
 .about-me h2 {
@@ -100,18 +98,13 @@ main {
   margin-bottom: 20px;
 }
 
-.about p {
-  margin-bottom: 10px; 
-}
-
-/* Education, Experience, Work & Contact Cards */
 .card {
   text-align: left;
   padding: 20px;
 }
 
 .card h2 i {
-  margin-right: 5px; /* Add spacing between the icon and the text */
+  margin-right: 5px;
 }
 
 .card-items {
@@ -123,12 +116,12 @@ main {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.8), #f9f9f9); 
 }
 
-.card-items h3 {
+.card-items h2 {
   font-size: 20px;
   margin: 0;
 }
 
-.card-items h2 {
+.card-items h3 {
   font-size: 20px;
   margin: 0;
 }
@@ -180,7 +173,41 @@ main {
   color: #777;
 }
 
-/* Footer */
+.contact-page {
+  padding:20px;
+}
+
+.social-media a {
+  text-decoration: none;
+  padding: 5px; 
+  list-style: none;
+}
+
+.about-contact h2 i,
+.social-media h2 i,
+.contact-form h2 i {
+  margin-right: 5px;
+}
+
+.social-media, .contact-form {
+  margin-top: 60px;
+}
+
+.tech-list {
+  list-style-type: none; 
+  margin-top: 10px; 
+  padding-left: 0; 
+}
+
+.tech-list li {
+  display: inline-block; 
+  margin-right: 10px;
+  background-color: #0080ff; 
+  color: #fff; 
+  padding: 5px 10px; 
+  border-radius: 5px; 
+}
+
 footer {
   padding: 20px 0;
   text-align: center;
@@ -190,13 +217,12 @@ footer {
   margin-top: 20px;
   display: flex;
   justify-content: space-between;
-  align-items: flex-start; /* Align headers at the top */
-  /* padding: 20px; space for footer email */
+  align-items: flex-start; 
 }
 
 .footer-column {
   flex: 1;
-  text-align: center; /* Center-align content within columns */
+  text-align: center; 
 }
 
 .footer-column h3 {
@@ -206,7 +232,7 @@ footer {
 
 .footer-contact p,
 .social-icons {
-  margin-top: 10px; /* Add spacing between header and content */
+  margin-top: 10px; 
 }
 
 .social-icons {
@@ -214,12 +240,12 @@ footer {
   padding: 0;
   display: flex;
   justify-content: center;
-  align-items: center; /* Vertically center-align social icons */
+  align-items: center;
 }
 
 .social-icons li {
   font-size: 24px;
-  margin-left: 10px; /* Add spacing between social icons */
+  margin-left: 10px;
 }
 
 .contact-info h3 {
@@ -229,45 +255,6 @@ footer {
 
 .copyright {
   text-align: center;
-}
-
-/* Contact Page */
-
-.contact-page {
-  padding:20px;
-}
-
-.social-media a {
-  text-decoration: none;
-  padding: 20px 20px 20px 0; /* 20px padding for top, right, bottom, and 0px for left */
-  list-style: none;
-}
-
-/* Add space between icons and headers */
-.about-contact h2 i,
-.social-media h2 i,
-.contact-form h2 i {
-  margin-right: 5px; /* Adjust the value as needed */
-}
-
-.social-media, .contact-form {
-  margin-top: 60px;
-}
-
-/* Style for the technology list */
-.tech-list {
-  list-style-type: none; /* Remove default bullet style */
-  margin-top: 10px; /* Add spacing between the project description and the list */
-  padding-left: 0; /* Remove left padding for the list */
-}
-
-.tech-list li {
-  display: inline-block; /* Display list items inline */
-  margin-right: 10px; /* Add spacing between list items */
-  background-color: #0080ff; /* Background color for list items */
-  color: #fff; /* Text color for list items */
-  padding: 5px 10px; /* Add padding to list items */
-  border-radius: 5px; /* Add rounded corners to list items */
 }
 
 
