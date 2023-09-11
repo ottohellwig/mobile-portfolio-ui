@@ -137,37 +137,47 @@ footer {
 }
 
 .footer-content {
+  margin-top: 20px;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 20px;
-  align-items: center;
+  align-items: flex-start; /* Align headers at the top */
 }
 
-.contact-info,
-.social-links {
+.column {
   flex: 1;
+  text-align: center; /* Center-align content within columns */
 }
 
-.contact-info h3,
-.social-links h3 {
+.column h3 {
   font-size: 18px;
+  margin: 0;
+}
+
+.contact-info p,
+.social-icons {
+  margin-top: 10px; /* Add spacing between header and content */
 }
 
 .social-icons {
   list-style: none;
   padding: 0;
   display: flex;
-  gap: 20px;
   justify-content: center;
-  margin-top: 10px;
+  align-items: center; /* Vertically center-align social icons */
 }
 
 .social-icons li {
   font-size: 24px;
+  margin-left: 10px; /* Add spacing between social icons */
 }
 
+/* Adjust the spacing between the header and contact info */
+.contact-info h3 {
+  margin-bottom: 10px;
+  font-style: normal;
+}
+
+/* Center the copyright div */
 .copyright {
-  font-size: 14px;
-  margin-top: 20px;
+  text-align: center;
 }
