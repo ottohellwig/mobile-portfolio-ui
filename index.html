@@ -4,11 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Otto Hellwig Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon-32x32.png" />
     <link rel="stylesheet" href="styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
-    />
   </head>
 
   <body>
@@ -20,64 +17,112 @@
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
+      <hr />
     </header>
 
     <main>
-      <section class="intro">
+      <section class="profile-image">
+        <img src="images/avatar.png" alt="Profile Image" />
+      </section>
+
+      <section class="title">
         <h1>Otto Hellwig</h1>
         <p class="subtitle">Software Developer</p>
         <p class="description">I create simple digital solutions.</p>
+        <a href="#about" class="about-link">Learn more about me</a>
       </section>
 
-      <section class="about-me">
-        <h2>About Me</h2>
+      <section id="about" class="about">
+        <h2><i class="fa fa-user"></i> About</h2>
         <p>
           I'm a passionate software developer with a strong background in web
           development and a love for crafting digital experiences.
+          <br />
+          <br />
+          I'm currently juggling my studies, volunteering at university,
+          managing a small painting business and helping my dad with his
+          company.
+          <br />
+          <br />
+          In my free time, I enjoy bouldering, exercising and spending time with
+          my dog Pebbles.
         </p>
       </section>
 
-      <section class="education">
-        <h2>Education</h2>
-        <div class="education-item">
-          <h3>Bachelor of Computer Science</h3>
-          <p class="institution">University of Example</p>
-          <p class="date">Graduated: May 2020</p>
-        </div>
-        <div class="education-item">
-          <h3>Master of Software Engineering</h3>
-          <p class="institution">Tech Institute</p>
-          <p class="date">Graduated: August 2022</p>
-        </div>
+      <section class="card">
+        <h2><i class="fa fa-graduation-cap"></i> Education</h2>
+        <article class="card-items">
+          <h3>Bachelor of Information Technology</h3>
+          <p class="organisation">Queensland University of Technology</p>
+          <p class="date">Nov 2022 - Present</p>
+          <p>
+            Majoring in Computer Science, minoring in Networks and Security.
+            CODE Network and QUT White Hats Member.
+          </p>
+        </article>
       </section>
 
-      <section class="experience">
-        <h2>Professional Experience</h2>
-        <div class="experience-item">
-          <h3>Software Engineer</h3>
-          <p class="company">Tech Solutions Inc.</p>
+      <section class="card">
+        <h2><i class="fa fa-briefcase"></i> Experience</h2>
+        <article class="card-items">
+          <h3>Peer Learning Facilitator</h3>
+          <p class="organisation">Queensland University of Technology</p>
+          <p class="date">June 2023 - Present</p>
+          <p>
+            Work with STEM Advisors and Educators to engage with students in
+            mathematics and information technology.
+          </p>
+        </article>
+
+        <article class="card-items">
+          <h3>Data Scientist</h3>
+          <p class="organisation">MDS Market Data Systems</p>
           <p class="date">June 2022 - Present</p>
           <p>
-            Led the development of a web-based application that improved
-            efficiency and reduced operational costs by 20%. Collaborated with
-            cross-functional teams to deliver high-quality software solutions.
+            Develop and maintain a data processing system for retail GIS from
+            HES and Census data using Fortran 77.
           </p>
-        </div>
-        <div class="experience-item">
-          <h3>Web Developer</h3>
-          <p class="company">WebTech Co.</p>
-          <p class="date">January 2020 - May 2022</p>
+        </article>
+
+        <article class="card-items">
+          <h3>Partner</h3>
+          <p class="organisation">SB Professional Painting</p>
+          <p class="date">August 2021 - Present</p>
           <p>
-            Designed and implemented responsive and user-friendly websites for
-            clients in various industries. Utilized modern web technologies to
-            create visually appealing and functional web applications.
+            Achieved a YTD revenue of $133,000 within the span of 2022-2023 by
+            collaborating with clients including Oxley State School and Cannon
+            Hill State School.
           </p>
-        </div>
+        </article>
       </section>
     </main>
 
     <footer>
-      <p>Copyright &copy; 2023 Otto Hellwig</p>
+      <hr />
+      <div class="footer-content">
+        <div class="contact-info">
+          <h3>Contact Information</h3>
+          <p>n11081708@qut.edu.au</p>
+          <p>0420 123 456</p>
+          <p>Brisbane, Australia</p>
+        </div>
+        <div class="social-links">
+          <h3>Follow Me</h3>
+          <ul class="social-icons">
+            <li>
+              <a href="https://github.com/ottohellwig" target="_blank"
+                ><i class="fa fa-github"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/ottohellwig" target="_blank"
+                ><i class="fa fa-linkedin"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p class="copyright">&copy; 2023 Otto Hellwig</p>
     </footer>
   </body>
 </html>

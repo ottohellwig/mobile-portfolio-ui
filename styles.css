@@ -1,143 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
 body {
-  background: rgb(10, 14, 57);
-  background: linear-gradient(135deg, rgba(10, 14, 57, 1) 0%, rgba(29, 42, 84, 1) 50%, rgba(43, 91, 164, 1) 100%);
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(227,229,236,1) 100%); 
   font-family: 'Inter', sans-serif;
   min-height: 100vh;
-  color: azure;
   display: flex;
   flex-direction: column;
-  justify-content: space-between; /* Space content at the top and bottom */
+  justify-content: space-between;
 }
 
-header {
-  text-align: center;
+/* Navbar */
+nav {
+  margin-top: 20px;
+  margin-bottom: 20px; 
 }
 
 nav ul {
   list-style: none;
   padding: 0;
   display: flex;
-  justify-content: center; /* Center the navigation horizontally */
+  justify-content: center; 
 }
 
 nav li {
-  margin-right: 20px; /* 10px right margin (gap) between each list item */
+  margin: 0 15px;
 }
 
 nav a {
   text-decoration: none;
-  color: azure;
   font-weight: 500;
   font-size: 18px;
+  color: #212529;
 }
 
-footer {
-  text-align: center;
-  padding: 10px 0; /* Add some padding to the footer */
-}
-
+/* Main Section */
 main {
-  text-align: center;
-  padding: 20px;
-}
-
-.intro {
-  margin-bottom: 20px;
   text-align: left;
-  padding: 20px;
+  line-height: 1.5;
 }
 
-.intro h1 {
-  font-size: 36px;
+/* Avatar Image */
+.profile-image {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.profile-image img {
+  max-width: 35%; 
+  height: auto;
+  border-radius: 50%; 
+  overflow: hidden;
+}
+
+/* Intro */
+.title {
+  text-align: center;
+}
+
+.title h1 {
   margin: 0;
+  font-size: 40px;
 }
 
 .subtitle {
-  font-size: 20px;
+  font-size: 24px;
+  font-weight: 500;
+  color: #212529;
   margin: 0;
 }
 
 .description {
-  font-size: 14px;
-}
-
-main p {
   font-size: 16px;
-  line-height: 1.5;
+  color: #343a40;
+  margin: 0;
+  margin-bottom: 10px;
 }
 
-.education {
+.linker {
+  font-size: 16px;
+  color: #118ab2;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+/* About Me Section */
+.about {
+  margin-top: 100px;
   text-align: left;
-  padding: 20px;
-}
-
-.education h2 {
-  font-size: 24px;
-  margin: 0;
-  margin-bottom: 20px;
-}
-
-.education-item {
-  background-color: #f9f9f9;
-  border-radius: 5px;
-  padding: 20px;
-  margin-bottom: 20px;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.education-item h3 {
-  font-size: 20px;
-  margin: 0;
-}
-
-.institution {
-  font-size: 16px;
-  color: #555;
-  margin-top: 5px;
-}
-
-.date {
-  font-size: 16px;
-  color: #777;
-}
-
-.experience {
-  text-align: left;
-  padding: 20px;
-}
-
-.experience h2 {
-  font-size: 24px;
-  margin: 0;
-  margin-bottom: 20px;
-}
-
-.experience-item {
-  background-color: #f9f9f9;
-  border-radius: 5px;
-  padding: 20px;
-  margin-bottom: 20px;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.experience-item h3 {
-  font-size: 20px;
-  margin: 0;
-}
-
-.company {
-  font-size: 16px;
-  color: #555;
-  margin-top: 5px;
-}
-
-.date {
-  font-size: 16px;
-  color: #777;
-}
-
-.about-me {
-  text-align: left; /* Align the content to the left */
   padding: 20px;
 }
 
@@ -147,14 +99,75 @@ main p {
   margin-bottom: 20px;
 }
 
-.about-me p {
-  font-size: 16px;
-  line-height: 1.5;
+/* Education & Experience Cards */
+.card {
+  text-align: left;
+  padding: 20px;
 }
 
-.responsive-image {
-  max-width: 40%; /* Adjust the percentage to make the circle smaller */
-  height: auto;
-  border-radius: 50%; /* Make the image round */
-  /* Adjust other styles as needed for your design */
+.card-items {
+  background: rgba(255, 255, 255, 0.8); 
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1), 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.8), #f9f9f9); 
+}
+
+.card-items h3 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.organisation {
+  font-size: 16px;
+  color: #555;
+  margin-top: 5px;
+}
+
+.date {
+  font-size: 16px;
+  color: #777;
+}
+
+/* Footer */
+footer {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+}
+
+.contact-info,
+.social-links {
+  flex: 1;
+}
+
+.contact-info h3,
+.social-links h3 {
+  font-size: 18px;
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.social-icons li {
+  font-size: 24px;
+}
+
+.copyright {
+  font-size: 14px;
+  margin-top: 20px;
 }
