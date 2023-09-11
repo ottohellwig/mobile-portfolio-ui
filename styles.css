@@ -99,6 +99,10 @@ main {
   margin-bottom: 20px;
 }
 
+.about p {
+  margin-bottom: 10px; 
+}
+
 /* Education & Experience Cards */
 .card {
   text-align: left;
@@ -171,13 +175,11 @@ footer {
   margin-left: 10px; /* Add spacing between social icons */
 }
 
-/* Adjust the spacing between the header and contact info */
 .contact-info h3 {
   margin-bottom: 10px;
   font-style: normal;
 }
 
-/* Center the copyright div */
 .copyright {
   text-align: center;
 }
