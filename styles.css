@@ -83,7 +83,6 @@ main {
 
 .linker {
   font-size: 16px;
-  color: #118ab2;
   margin: 0;
   margin-bottom: 10px;
 }
@@ -105,10 +104,14 @@ main {
   margin-bottom: 10px; 
 }
 
-/* Education, Experience & Contact Cards */
+/* Education, Experience, Work & Contact Cards */
 .card {
   text-align: left;
   padding: 20px;
+}
+
+.card h2 i {
+  margin-right: 5px; /* Add spacing between the icon and the text */
 }
 
 .card-items {
@@ -145,7 +148,7 @@ main {
 }
 
 .card-items button[type="submit"] {
-  background-color: #118ab2;
+  background-color: #0080ff;
   color: #fff;
   border: none;
   border-radius: 3px;
@@ -159,6 +162,11 @@ main {
 .card-items textarea,
 .card-items button[type="submit"] {
   font-size: 16px;
+}
+
+.card-items img {
+  max-width: 100%;
+  height: auto;
 }
 
 .organisation {
@@ -245,3 +253,23 @@ footer {
 .social-media, .contact-form {
   margin-top: 60px;
 }
+
+/* Style for the technology list */
+.tech-list {
+  list-style-type: none; /* Remove default bullet style */
+  margin-top: 10px; /* Add spacing between the project description and the list */
+  padding-left: 0; /* Remove left padding for the list */
+}
+
+.tech-list li {
+  display: inline-block; /* Display list items inline */
+  margin-right: 10px; /* Add spacing between list items */
+  background-color: #0080ff; /* Background color for list items */
+  color: #fff; /* Text color for list items */
+  padding: 5px 10px; /* Add padding to list items */
+  border-radius: 5px; /* Add rounded corners to list items */
+}
+
+
+
+
