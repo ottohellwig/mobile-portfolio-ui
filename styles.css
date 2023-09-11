@@ -1,10 +1,12 @@
+/* Credits to Google Fonts for the Inter font family. */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
+/* Credits to Font Awesome for the social icons and Tim for suggesting to use 4.7.0 version. */
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 
 body {
   background: rgb(255,255,255);
-  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(227,229,236,1) 100%); 
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(225,230,235,1) 100%); 
   font-family: 'Inter', sans-serif;
   min-height: 100vh;
   display: flex;
@@ -42,7 +44,7 @@ main {
   line-height: 1.5;
 }
 
-/* Avatar Image */
+/* Avatar Image - Generated using Midjourney Premium, rights reserved to Midjourney and myself */
 .profile-image {
   text-align: center;
   margin-top: 100px;
@@ -86,7 +88,7 @@ main {
   margin-bottom: 10px;
 }
 
-/* About Me Section */
+/* About Section */
 .about {
   margin-top: 100px;
   text-align: left;
@@ -103,7 +105,7 @@ main {
   margin-bottom: 10px; 
 }
 
-/* Education & Experience Cards */
+/* Education, Experience & Contact Cards */
 .card {
   text-align: left;
   padding: 20px;
@@ -121,6 +123,42 @@ main {
 .card-items h3 {
   font-size: 20px;
   margin: 0;
+}
+
+.card-items h2 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.card-items .form-group {
+  margin-bottom: 15px;
+  padding-right: 20px;
+}
+
+.card-items input[type="text"],
+.card-items input[type="email"],
+.card-items textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.card-items button[type="submit"] {
+  background-color: #118ab2;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.card-items input[type="text"],
+.card-items input[type="email"],
+.card-items textarea,
+.card-items button[type="submit"] {
+  font-size: 16px;
 }
 
 .organisation {
@@ -145,19 +183,20 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: flex-start; /* Align headers at the top */
+  /* padding: 20px; space for footer email */
 }
 
-.column {
+.footer-column {
   flex: 1;
   text-align: center; /* Center-align content within columns */
 }
 
-.column h3 {
+.footer-column h3 {
   font-size: 18px;
   margin: 0;
 }
 
-.contact-info p,
+.footer-contact p,
 .social-icons {
   margin-top: 10px; /* Add spacing between header and content */
 }
@@ -182,4 +221,27 @@ footer {
 
 .copyright {
   text-align: center;
+}
+
+/* Contact Page */
+
+.contact-page {
+  padding:20px;
+}
+
+.social-media a {
+  text-decoration: none;
+  padding: 20px 20px 20px 0; /* 20px padding for top, right, bottom, and 0px for left */
+  list-style: none;
+}
+
+/* Add space between icons and headers */
+.about-contact h2 i,
+.social-media h2 i,
+.contact-form h2 i {
+  margin-right: 5px; /* Adjust the value as needed */
+}
+
+.social-media, .contact-form {
+  margin-top: 60px;
 }
