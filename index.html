@@ -3,8 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta author="Otto Hellwig" />
+    <meta name="description" content="Homepage of my portfolio website." />
+
     <title>Otto Hellwig - Home</title>
-    <link rel="icon" type="image/x-icon" href="/images/favicon.png" />
+    <link rel="icon" type="image/x-icon" href="images/favicon.png" />
     <link rel="stylesheet" href="styles.css" />
   </head>
 
@@ -12,24 +15,23 @@
     <header>
       <nav>
         <ul>
-          <li><a href="index.html">Home</a></li>
+          <li class="active"><a href="index.html">Home</a></li>
           <li><a href="works.html">Works</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
-      <hr />
     </header>
 
     <main>
-      <section class="profile-image">
-        <img src="images/avatar.png" alt="Profile Image - Avatar" />
-      </section>
+      <figure class="profile-image">
+        <img src="images/avatar1.png" alt="Profile Image - Avatar" />
+      </figure>
 
       <section class="title">
         <h1>Otto Hellwig</h1>
         <p class="subtitle">Software Developer</p>
         <p class="description">I create simple solutions.</p>
-        <a href="#about" class="about-link">Learn more about me</a>
+        <a href="#about">Learn more about me</a>
       </section>
 
       <section id="about" class="about">
@@ -54,11 +56,10 @@
         <h2><i class="fa fa-graduation-cap"></i> Education</h2>
         <article class="card-items">
           <h3>Bachelor of Information Technology</h3>
-          <p class="organisation">Queensland University of Technology</p>
-          <p class="date">Nov 2022 - Present</p>
+          <p>Queensland University of Technology</p>
+          <p>Nov 2022 - Present</p>
           <p>
             Majoring in Computer Science, minoring in Networks and Security.
-            CODE Network and QUT White Hats Member.
           </p>
         </article>
       </section>
@@ -80,8 +81,9 @@
           <p class="organisation">MDS Market Data Systems</p>
           <p class="date">June 2022 - Present</p>
           <p>
-            Develop and maintain a data processing system for retail GIS from
-            HES and Census data using Fortran 77.
+            Run optimisation algorithms using Fortran to analyse data from the
+            Census and Household Expenditure Survey (HES) for retail geographic
+            information systems (GIS) software.
           </p>
         </article>
 
@@ -98,31 +100,59 @@
       </section>
     </main>
 
-    <footer class="footer">
-      <hr />
-      <section class="footer-content">
-        <address class="footer-column contact-info">
-          <h3>Contact Info</h3>
-          <p>n11081708@qut.edu.au</p>
-          <p>0123 456 789</p>
-        </address>
-        <section class="footer-column social-links">
-          <h3>Social Media</h3>
-          <ul class="social-icons">
+    <div class="wok"></div>
+
+    <footer>
+      <section>
+        <h3>Contact Info</h3>
+        <a href="mailto:n11081708@qut.edu.au">n11081708@qut.edu.au</a>
+        <a href="tel:0123456789">0123 456 789</a>
+      </section>
+
+      <section>
+        <h3>Social Media</h3>
+        <nav>
+          <ul class="social-media-list">
             <li>
-              <a href="https://github.com/ottohellwig" target="_blank">
-                <i class="fa fa-github"></i>
-              </a>
+              <a href="#"><i class="fa fa-instagram"></i></a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/in/ottohellwig" target="_blank">
-                <i class="fa fa-linkedin"></i>
-              </a>
+              <a href="#"><i class="fa fa-github"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-linkedin"></i></a>
             </li>
           </ul>
-        </section>
+        </nav>
       </section>
+
       <p class="copyright">&copy; Otto Hellwig 2023</p>
     </footer>
   </body>
 </html>
+
+<!-- <footer class="footer">
+  <section class="footer-content">
+    <address class="footer-column contact-info">
+      <h3>Contact Info</h3>
+      <a href="mailto:n11081708@qut.edu.au">n11081708@qut.edu.au</a>
+      <a href="tel:0123456789">0123 456 789</a>
+    </address>
+
+    <section class="footer-column">
+      <h3>Sitemap</h3>
+      <ul class="sitemap">
+        <li>
+          <a href="index.html"> Home</a>
+        </li>
+        <li>
+          <a href="works.html"> Works </a>
+        </li>
+        <li>
+          <a href="contact.html"> Contact </a>
+        </li>
+      </ul>
+    </section>
+  </section>
+  <p class="copyright">&copy; Otto Hellwig 2023</p>
+</footer> -->
