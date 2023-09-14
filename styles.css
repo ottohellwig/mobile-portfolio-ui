@@ -220,7 +220,7 @@ footer address a {
 /* Avatar Image 2 - Generated using Midjourney Premium, rights reserved to Midjourney and myself */
 /* Gradient fade into Avatar Image 2 into Footer */
 .background-fade {
-  background-position: middle center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover; 
   padding-bottom: 400px;
