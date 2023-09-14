@@ -33,7 +33,7 @@ nav .logo {
 }
 
 nav .logo img {
-  width: 40px; 
+  width: 25px; 
   height: auto; 
   border-radius: 50%; 
   margin-right: 5px; 
@@ -47,7 +47,6 @@ nav .logo span {
 
 nav ul {
   list-style: none;
-  padding: 0;
   display: flex;
   justify-content: center; 
   flex-grow: 1; 
@@ -69,39 +68,38 @@ nav .active a {
   font-weight: 600;
 }
 
-/* Avatar Image - Generated using Midjourney Premium, rights reserved to Midjourney and myself */
-.profile-image {
+/* Avatar Image 1 - Generated using Midjourney Premium, rights reserved to Midjourney and myself */
+.avatar {
   text-align: center;
   margin-top: 100px;
 }
 
-.profile-image img {
+.avatar img {
   max-width: 35%; 
   height: auto;
   border-radius: 50%; 
   overflow: hidden;
 }
 
-.title {
+.hero {
   text-align: center;
 }
 
-.title h1 {
-  margin: 0;
+.hero h1 {
   font-size: 40px;
 }
 
-.title a {
+.hero a {
   color: #5B9EA6;
 }
 
-.subtitle {
+.hero p:nth-child(2) {
   font-size: 24px;
   font-weight: 500;
   color:#CCCCCC;
 }
 
-.description {
+.hero p:nth-child(3) {
   font-size: 16px;
   margin-bottom: 10px;
   color: #999999;
@@ -135,12 +133,12 @@ nav .active a {
   margin: 5px 0;
 }
 
-.card-items p:nth-child(1) {
-  color: #CCCCCC; /* Styling for the first p */
+.card p:nth-child(2) {
+  color: #CCCCCC;
 }
 
-.card-items p:nth-of-type(2) {
-  color: #999999; /* Styling for the second p */
+.card p:nth-child(3) {
+  color: #999999; 
 }
 
 .card img {
@@ -148,7 +146,7 @@ nav .active a {
   height: auto;
 }
 
-.card-items .form-group {
+/* .card-items .form-group {
   margin-bottom: 15px;
   padding-right: 20px;
 }
@@ -179,22 +177,11 @@ nav .active a {
   font-size: 16px;
 }
 
-.organisation {
-  font-size: 16px;
-  color: #555;
-  margin-top: 5px;
-}
-
-.date {
-  font-size: 16px;
-  color: #777;
-}
-
 .contact-page {
   padding:20px;
-}
+} */
 
-.social-media a {
+/* .social-media a {
   text-decoration: none;
   padding: 5px; 
   list-style: none;
@@ -208,7 +195,7 @@ nav .active a {
 
 .social-media, .contact-form {
   margin-top: 60px;
-}
+} */
 
 .tech-list {
   list-style-type: none; 
@@ -219,7 +206,7 @@ nav .active a {
 .tech-list li {
   display: inline-block; 
   margin-right: 10px;
-  background-color: #1DF2F2; 
+  background-color: #5B9EA6; 
   color: #fff; 
   padding: 5px 10px; 
   border-radius: 5px; 
@@ -236,6 +223,7 @@ footer address a {
   font-style: normal;
 }
 
+/* Avatar Image 2 - Generated using Midjourney Premium, rights reserved to Midjourney and myself */
 .background-fade {
   background-position: middle center;
   background-repeat: no-repeat;
