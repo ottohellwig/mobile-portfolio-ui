@@ -179,13 +179,8 @@ nav .active a {
   padding: 20px;
 }
 
-.contact a {
-  color: #CCCCCC;
-}
-
 .contact span {
-  margin-right: 15px;
-  font-size: 14px;
+  margin-right: 5px;
 }
 
 form div {
