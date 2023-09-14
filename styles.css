@@ -171,15 +171,28 @@ nav .active a {
   border-radius: 5px; 
 }
 
-.contact-form {
+.contact .card {
+  padding: 40px 0 30px 0; 
+}
+
+.contact {
   padding: 20px;
 }
 
-.contact-form form {
-  margin-bottom: 15px;
-  padding-right: 20px;
+.contact a {
+  color: #CCCCCC;
 }
 
+.contact span {
+  margin-right: 15px;
+  font-size: 14px;
+}
+
+form div {
+  padding-bottom: 15px;
+}
+
+/* Contact Form input/label and button */
 input[type="text"],
 input[type="email"],
 textarea {
@@ -198,34 +211,19 @@ button[type="submit"] {
   padding: 10px 20px;
 }
 
-/* .social-media a {
-  text-decoration: none;
-  padding: 5px; 
-  list-style: none;
-}
-
-.about-contact h2 i,
-.social-media h2 i,
-.contact-form h2 i {
-  margin-right: 5px;
-}
-
-.social-media, .contact-form {
-  margin-top: 60px;
-}
-
 footer {
   text-align: center;
   padding: 15px;
 }
 
 footer address a {
-  color: #F2F2F2;
+  color: #CCCCCC;
   text-decoration: none;
   font-style: normal;
 }
 
 /* Avatar Image 2 - Generated using Midjourney Premium, rights reserved to Midjourney and myself */
+/* Gradient fade into Avatar Image 2 into Footer */
 .background-fade {
   background-position: middle center;
   background-repeat: no-repeat;
