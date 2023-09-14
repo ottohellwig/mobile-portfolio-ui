@@ -122,7 +122,7 @@ nav .active a {
   padding: 20px;
 }
 
-.card-items {
+.card article {
   background: #1A2733;
   border-radius: 5px;
   padding: 20px;
@@ -130,15 +130,9 @@ nav .active a {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1), 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-.card h2,
-.card h3 {
-  font-size: 20px;
-  margin: 0;
-}
-
-.card-items p {
+.card p {
   font-size: 16px;
-  margin: 5px 0; /* Add a small margin between paragraphs */
+  margin: 5px 0;
 }
 
 .card-items p:nth-child(1) {
@@ -147,6 +141,11 @@ nav .active a {
 
 .card-items p:nth-of-type(2) {
   color: #999999; /* Styling for the second p */
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
 }
 
 .card-items .form-group {
@@ -178,11 +177,6 @@ nav .active a {
 .card-items textarea,
 .card-items button[type="submit"] {
   font-size: 16px;
-}
-
-.card-items img {
-  max-width: 100%;
-  height: auto;
 }
 
 .organisation {
@@ -230,62 +224,19 @@ nav .active a {
   padding: 5px 10px; 
   border-radius: 5px; 
 }
-/* 
+
 footer {
-  text-align: left;
-}
-
-.footer-content {
-  margin-top: 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start; 
-}
-
-.footer-column {
-  flex: 1;
-  text-align: left; 
-}
-
-.footer-column h3 {
-  font-size: 18px;
-  margin: 0;
-}
-
-.footer-contact p,
-.social-icons {
-  margin-top: 10px;
-}
-
-.sitemap {
-  list-style: none;
-}
-
-.sitemap a {
-  text-decoration: none;
-  color: #5B9EA6;
-}
-
-.contact-info a {
-  text-decoration: none;
-  color: #CCCCCC;
-}
-
-.copyright {
-  margin: 20px; 
   text-align: center;
-} */
+  padding: 15px;
+}
 
-  /* background-repeat: no-repeat;
-  background-size: cover; 
-  padding-bottom: 100px;
-  background-image: linear-gradient(to bottom, rgba(16,24,29, 1) 0%, rgba(0, 0, 0, 0) 100%), linear-gradient(to bottom, rgba(16, 24, 29, 0) 0%, rgba(16, 24, 29, 1) 100%), url(images/pexels-jakub-novacek-924824.jpg);
-} */
+footer address a {
+  color: #F2F2F2;
+  text-decoration: none;
+  font-style: normal;
+}
 
-  /* background: rgb(255,255,255);
-  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(225,230,235,1) 100%);  */
-
-  .wok {
+.background-fade {
   background-position: middle center;
   background-repeat: no-repeat;
   background-size: cover; 
@@ -293,10 +244,5 @@ footer {
   background-image: linear-gradient(to bottom, rgba(19, 29, 38, 1) 0%, rgba(0, 0, 0, 0) 100%), url(images/avatar2.png);
 }
 
-/* , linear-gradient(to bottom, rgba(19, 29, 38, 0) 0%, rgba(19, 29, 38, 1) 100%) */
 
-/* background = #131D26;
-primary = #F2F2F2;
-secondary = #CCCCCC;
-tertiary = #999999;
-links = #5B9EA6; */
+
