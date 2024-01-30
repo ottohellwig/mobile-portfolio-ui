@@ -1,2 +1,2 @@
-# DXB111-A1
-Portfolio website designed for iPhone X viewport.
+# Mobile Portfolio UI
+A clean and minimalistic portfolio website for the iPhone X viewport. 
